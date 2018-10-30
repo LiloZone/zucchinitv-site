@@ -2279,7 +2279,15 @@ b, strong {
 
 /* Team 3 */
 .team_3 .block:hover {
-  opacity: 0.8;
+  opacity: 1;
+}
+
+.team_3 .green_overlay {
+  position: absolute;
+  opacity: 0;
+}
+.team_3 .green_overlay:hover {
+  opacity: 0.5;
 }
 
 /* Team 4 */
