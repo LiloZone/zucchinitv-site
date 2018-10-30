@@ -52,6 +52,27 @@
     font-weight: bold;
 }
 
+.bg_gif {
+    display: table;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+	left:25%; 
+	top:25%; 
+	bottom:25%; 
+	right:25%;
+	background:url(../i/zucchini1.gif) no-repeat center ;
+    background-position: auto auto;
+    background-color: black;
+	box-shadow:0 2px 5px #000; 
+	border-radius:5px; 
+	text-align:center;
+	-webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+}
+
 /* Change bootstrap's .container width */
 @media (min-width: 768px) {
   .container {
